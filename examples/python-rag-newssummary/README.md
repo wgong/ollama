@@ -21,7 +21,14 @@ This example lets you pick from a few different topic areas, then summarize the 
    ```bash
    ollama pull mistral-openorca
    ```
+1-a. Run a model
 
+   ```bash
+   ollama run mistral-openorca
+   ```
+
+   Open browser at URL = http://localhost:11434, you should get the message: `Ollama is running`
+   
 2. Install the Python Requirements.
 
    ```bash
@@ -31,5 +38,5 @@ This example lets you pick from a few different topic areas, then summarize the 
 3. Run the example:
 
    ```bash
-   python summ.py
+   python3 summ.py
    ```
